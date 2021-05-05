@@ -1,0 +1,35 @@
+input{
+    color: rgb(242, 240, 243)156, 144, 144;
+
+}
+.result{
+    color: rgb(241, 238, 240);
+}
+.container{
+    color: blanchedalmond;
+}
+h1{
+    color: crimson;
+    text-decoration:underline ;
+}
+button{
+    color: crimson;
+}
+*{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top:20px;
+    margin-bottom: 05px;
+    background-color: black;
+
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: crimson;
+    opacity: 1; /* Firefox */
+  }
+input:text{
+    color: crimson;
+}
+#Salary{
+    color: white;
+}

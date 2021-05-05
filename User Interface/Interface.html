@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="Styled.css"><!-- Stylesheet used -->
+   <script src="Calculations.js"></script><!-- Scripting language used -->
+    <title>User Interface Application</title> 
+</head>
+<body>
+<div class="container">
+     <h1>Please Input Your Current Salary</h1><!-- Main heading-->
+   
+     <input type="number" id="Salary" placeholder="Enter Your Current Salary"><br><br>
+     <button onclick="NewSalary()">Results</button> <!-- When you click this button,Salary total results displayed -->
+     <button onclick="clearSalary()">Clear</button> <!-- Placeholder box is cleared -->
+    <div class="result">
+        <p id="New" ></p><br><br><!-- ID for displaying the results-->
+        <span id="TotalSalary2"></span><br><br><!-- Id for displaying the second salary results -->
+    </div>
+</div>
+    
+</body>
+</html>
